@@ -5,7 +5,7 @@ import Contacts from './pages/Contacts';
 function App() {
     return (
 
-        <BrowserRouter basename="/lab8">
+        <BrowserRouter basename="/lab10">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/contacts" element={<Contacts />} />
